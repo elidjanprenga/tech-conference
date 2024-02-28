@@ -31,7 +31,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  padding-top: 56px;
 }
 
 h1 {
@@ -43,4 +42,6 @@ h1 {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+.nabar {
+  padding: 150px !important;
+}/*# sourceMappingURL=main.css.map */
