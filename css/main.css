@@ -31,7 +31,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  padding-top: 56px;
 }
 
 h1 {
@@ -41,6 +40,4 @@ h1 {
   h1 {
     font-size: rem-calc(33);
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

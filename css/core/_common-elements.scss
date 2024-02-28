@@ -1,5 +1,5 @@
-@use "../abstracts/variables" as var;
-@use "../abstracts/mixins" as mix;
+@use '../abstract/variables' as var;
+@use '../abstract/mixins' as mix;
 
 html {
   font-size: var.$font-family-base;
