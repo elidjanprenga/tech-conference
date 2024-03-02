@@ -1,4 +1,9 @@
-.nabar{
-    padding: 150px !important;
-    
+.navbar{
+    .container{
+        .collapse{
+            @media (min-width:1440px) {
+                margin-left: 60px;
+            }
+        }
+    }
 }
