@@ -1,1 +1,1 @@
-The Project worked by Elidjan Prenga.
+Registration Page code and files.
