@@ -1,1 +1,1 @@
-The Project worked by Elidjan Prenga.
+Speakers Page code and files.
