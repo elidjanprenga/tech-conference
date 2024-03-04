@@ -1,0 +1,23 @@
+.schedule-table{
+    overflow-y: scroll;
+    .tab-pane.fade:not(.show) {
+        opacity: 0;
+        transition: opacity 0.1s ease-out; /* Adjust the duration as needed */
+      }
+      
+    .tab-pane.fade.show {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out; /* Adjust the duration as needed */
+    }
+    .table{
+        tr{
+            td{
+                .bg-primary,
+                .bg-secondary{
+                font-size: smaller;
+               }
+            }
+        }
+    }
+}
+

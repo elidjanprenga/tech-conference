@@ -42,6 +42,22 @@ h1 {
   }
 }
 
+.schedule-table {
+  overflow-y: scroll;
+}
+.schedule-table .tab-pane.fade:not(.show) {
+  opacity: 0;
+  transition: opacity 0.1s ease-out; /* Adjust the duration as needed */
+}
+.schedule-table .tab-pane.fade.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* Adjust the duration as needed */
+}
+.schedule-table .table tr td .bg-primary,
+.schedule-table .table tr td .bg-secondary {
+  font-size: smaller;
+}
+
 @media (max-width: 768px) {
   .footer .container {
     width: 100%;
