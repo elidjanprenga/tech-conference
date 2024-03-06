@@ -31,6 +31,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5;
+  padding-top: 56px;
 }
 
 h1 {
@@ -40,6 +41,13 @@ h1 {
   h1 {
     font-size: rem-calc(33);
   }
+}
+
+form .form-group {
+  padding: 10px;
+}
+form .form-group label {
+  padding: 5px 0;
 }
 
 @media (max-width: 768px) {
