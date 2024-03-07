@@ -9,7 +9,7 @@ body {
   font-family: var.$font-family-base;
   font-weight: var.$font-weight-normal;
   line-height: var.$line-height-base;
-  // padding-top: 56px; // Offset for fixed navbar
+  padding-top: 56px; // Offset for fixed navbar
 }
 
 h1 {
@@ -17,5 +17,36 @@ h1 {
 
   @include mix.mobile-l-styles {
   font-size: var.$heading-size-big;
+  }
+}
+
+.navbar{
+  .container{
+    .collapse{
+      a{color: var.$text-color-base;
+
+        &:hover{
+          color:var.$text-color-primary;
+        }
+      }
+    }
+  }
+}
+
+
+
+.footer{
+  .container{
+    .text-end{
+      a{
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+      p{
+          color: var.$text-color-base;
+      }
   }
 }
