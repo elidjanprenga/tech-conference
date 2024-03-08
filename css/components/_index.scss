@@ -1,1 +1,6 @@
-// @forward "component-name"
+@forward "./hero";
+@forward "./featured-speakers.scss";
+@forward "./countdown";
+@forward "./register-section";
+@forward "./event-preview";
+@forward "./footer";
