@@ -1,4 +1,3 @@
-<<<<<<< css/core/_common-elements.scss
 @use "../abstract/variables" as var;
 @use "../abstract/mixins" as mix;
 
@@ -49,6 +48,22 @@ h1 {
     }
       p{
           color: var.$text-color-base;
+      }
+  }
+}
+
+
+.featured-speakers{
+  .row{
+      .col{
+          .card{
+              &:hover{
+                  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+                  transition: 0.3s;
+                  transform: translateY(-5px);
+                  color: var.$background-color-primary;
+              }
+          }
       }
   }
 }
