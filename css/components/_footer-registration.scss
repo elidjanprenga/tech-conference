@@ -1,0 +1,61 @@
+@use '../abstract/variables' as var;
+
+.footer{
+    .container{
+        @media (max-width:768px) {
+            width: 100%;
+            padding: 0;
+        }
+
+
+        p{
+            color: var.$text-color-base;
+        }
+        .social-media{
+            span{
+                padding: 5px;
+
+                a{
+                    padding-left: 10px;
+                    text-decoration: none;
+                    @media (max-width:768px) {
+                        padding-left: 5px;
+                    }
+                }
+                i{
+                    color: #007bff;
+                }
+            }
+        }
+
+        .footer-menu{
+
+            a{
+                text-decoration: none;
+                padding-right: 10px;
+        
+            }
+            
+        }
+
+        .text-center{
+            color: var.$text-color-base;
+        }
+
+        #backto-top{
+            
+            text-decoration: none;
+            float: right;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    
+}
+
+
+
+
