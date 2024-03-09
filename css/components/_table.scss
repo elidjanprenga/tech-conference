@@ -1,5 +1,5 @@
 .schedule-table{
-    overflow-y: scroll;
+    overflow-y: auto;
     .tab-pane.fade:not(.show) {
         opacity: 0;
         transition: opacity 0.1s ease-out; /* Adjust the duration as needed */
