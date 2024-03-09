@@ -232,4 +232,43 @@ h1 {
 }
 .footer .container #backto-top:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+.footer .container p {
+  color: #707070;
+}
+.footer .container .social-media span {
+  padding: 5px;
+}
+.footer .container .social-media span a {
+  padding-left: 10px;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .footer .container .social-media span a {
+    padding-left: 5px;
+  }
+}
+.footer .container .social-media span i {
+  color: #007bff;
+}
+.footer .container .footer-menu a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+.footer .container .text-center {
+  color: #707070;
+}
+.footer .container #backto-top {
+  text-decoration: none;
+  float: right;
+}
+.footer .container #backto-top:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
