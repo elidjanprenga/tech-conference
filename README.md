@@ -1,1 +1,3 @@
-Schedule Code and files.
+Elidjan Prenga 
+
+In that Project its Developed a webside for an upcoming tech conference.The project its worked with SASS and Bootstrap combined with CSS and a bit JS in HTML stucture.The webside contains Home Page with elements as reqiered also contains the countdown with developed with JS, an About Us Page with element as required , the Schedule Page with the tables that are implemented inside a tab , the Speakers Page that contains descriptive cards, the Registration Page that contain a form which have a validation with JS and the Contact Us Page with elements as required.All the pages thav the same Navbar and Footer and the two parts are worked as required.All the pages are responsive with all its elements as required.
